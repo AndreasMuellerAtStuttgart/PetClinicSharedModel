@@ -10,8 +10,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Owner {
+	Long ownerId;
 	String firstName;
 	String lastName;
 	Date birthDate;
-	Pet pet;
+	Long petId;
 }

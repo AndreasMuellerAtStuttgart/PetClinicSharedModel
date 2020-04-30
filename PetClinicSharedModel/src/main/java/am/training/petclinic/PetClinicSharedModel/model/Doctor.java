@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Doctor {
+	Long doctorId;
 	String firstName;
 	String lastName;
 	Date birthDate;

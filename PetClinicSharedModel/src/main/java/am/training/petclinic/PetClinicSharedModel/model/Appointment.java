@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Appointment {
-	Doctor doctor;
-	Owner owner;
-	Pet pet;
+	Long doctorId;
+	Long ownerId;
+	Long petId;
 	Date date;
 }
