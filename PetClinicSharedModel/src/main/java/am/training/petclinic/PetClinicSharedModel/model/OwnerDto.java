@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Doctor {
-	Long doctorId;
+public class OwnerDto {
+	Long ownerId;
 	String firstName;
 	String lastName;
 	Date birthDate;
-	DoctorExperience experience;
+	PetDto pet;
 }
