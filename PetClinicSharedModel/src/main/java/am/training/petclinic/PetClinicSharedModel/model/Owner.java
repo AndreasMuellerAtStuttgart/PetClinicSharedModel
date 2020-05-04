@@ -14,5 +14,5 @@ public class Owner {
 	String firstName;
 	String lastName;
 	Date birthDate;
-	Long petId;
+	Pet pet;
 }

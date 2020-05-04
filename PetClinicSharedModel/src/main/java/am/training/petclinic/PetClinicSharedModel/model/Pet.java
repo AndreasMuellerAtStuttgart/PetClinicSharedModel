@@ -11,5 +11,5 @@ public class Pet {
 	Long petId;
 	String name;
 	String animalType;
-	Long ownerId;
+	Owner owner;
 }
